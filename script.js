@@ -26,7 +26,7 @@ function previewAndGenerate(event) {
         userImage.onload = function() {
             const preExistingImage = new Image();
             preExistingImage.crossOrigin = 'anonymous'; // Enable CORS
-            preExistingImage.src = 'https://bowralsweetsandtreats.com.au/cdn/shop/products/CheetosCrunchyFlamin_Hot.png?v=1588729110'; // Add the path to your existing image
+            preExistingImage.src = '/photos/generator.jpg'; // Add the path to your existing image
             preExistingImage.onload = function() {
                 const canvas = document.createElement('canvas');
                 canvas.width = 500;

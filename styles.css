@@ -5,7 +5,7 @@
 } 
 body {
     animation: scroll 100s linear infinite;
-    background: url("file:///C:/Users/jorda/OneDrive/Desktop/jeetos/photos/background.png");
+    background: url("/photos/background.png");
     overflow-x: hidden;
     height: 100vh;
     background-color: #F68422;
