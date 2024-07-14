@@ -1,0 +1,202 @@
+
+@font-face { 
+    font-family: Cheetos; 
+    src: url('cheetos.otf') format("opentype");
+} 
+body {
+    animation: scroll 100s linear infinite;
+    background: url("file:///C:/Users/jorda/OneDrive/Desktop/jeetos/photos/background.png");
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: #F68422;
+}
+img {
+    user-select: none;
+    user-drag: none;
+}
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#FFF7F4, #FFDB00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Cheetos;
+    text-shadow:  #FC0 1px 0 10px;
+}
+h2 {
+    font-size: 42px;
+    background: -webkit-linear-gradient(#FFF7F4, #FFDB00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Cheetos;
+    text-shadow:  #FC0 1px 0 10px;
+}
+* {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+
+#flamin {
+    position: absolute;
+    width: auto;
+    top: 0%;
+    left: -1vh;
+    width: 100vh;
+    pointer-events: none; user-select: none;
+}
+
+#flaminman  {
+    position: absolute;
+    width: auto;
+    top: 0%;
+    right: 0vh;
+    pointer-events: none; user-select: none;
+}
+
+#buttons-container {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50vh;
+}
+
+#ca {
+    align-self: center;
+    position: absolute;
+    top: 40vh;
+}
+
+
+
+
+.generator {
+    height: 100vh;
+    background-image: linear-gradient(#f6852200, #ec2031ef, #f6852200);
+    
+}
+
+.generator2 {
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+}
+
+#head1 {
+    position: absolute;
+    pointer-events: none; user-select: none;
+}
+
+#hot-cheeto, #jeeto {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 80vh;
+}
+
+.s2 {
+    height: auto;
+    width: 100%;
+    padding: 3vh;
+    pointer-events: none; user-select: none;
+}
+.s2 > h1 {
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+
+#stats {
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    text-align: center;
+}
+
+.token > img{
+    width: 40vh;
+    animation: pulse 1s ease-in-out infinite;
+}
+#s3 {
+    text-align: center;
+    background-image: linear-gradient(#f6852200, #ec2031ef, #f6852200);
+    height: auto;
+    position: relative;
+    padding-top: 2vh;
+    pointer-events: none; user-select: none;
+}
+
+.packs {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+.packs1 > h1{
+    padding-top: 3vh;
+}
+
+#caraimg {
+    height: 10vh;
+    position: relative;
+    padding-top: 10vh;
+}
+
+@keyframes scroll {
+    100% {
+      background-position: 0px -4000%;
+    }
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#favicon {
+    animation: spin 2s linear infinite;
+}
+  

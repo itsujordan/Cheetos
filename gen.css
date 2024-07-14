@@ -1,0 +1,113 @@
+
+
+form {
+    margin-bottom: 20px;
+}
+
+#uploadImage {
+    padding: 10px;
+    border: 2px solid #F68422;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #F68422;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#uploadImage:hover {
+    background-color: #F68422;
+    color: #fff;
+}
+
+#generateButton {
+    padding: 10px 20px;
+    background-color: #F68422;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#generateButton:hover {
+    background-color: #D56E00;
+}
+
+#previewImage {
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 10px;
+    display: block;
+    border: 2px solid #F68422;
+    border-radius: 5px;
+}
+
+#resultImage {
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 10px;
+    display: block;
+    animation: shakeRotate 3s linear infinite alternate; /* Rotation animation for generated image */
+}
+
+@keyframes shakeRotate {
+    0%, 100% {
+        transform: rotate(-30deg); /* Start and end with -30deg rotation */
+    }
+    50% {
+        transform: rotate(30deg); /* Rotate to 30deg at 50% */
+    }
+}
+
+#existingImage {
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+    animation: shake 0.1s linear infinite alternate; /* Shake animation for existing image */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0); /* Start and end with no translation */
+    }
+    25%, 75% {
+        transform: translateX(-2px); /* Move left by 2px at 25% and 75% */
+    }
+    50% {
+        transform: translateX(2px); /* Move right by 2px at 50% */
+    }
+}
+
+#downloadLink {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #ec2031ef;
+    background: linear-gradient(#fee337, #fee33700);
+    transition: all 0.8s;
+    transition-property: image 0.8s;
+    font-family: Cheetos;
+    text-shadow:  #FC0 1px 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*
+color: #ec2031ef;
+background: linear-gradient(#fee337, #fee33700);
+transition: all 0.8s;
+transition-property: image 0.8s;
+font-family: Cheetos;
+text-shadow:  #FC0 1px 0 10px; */
+
+#downloadLink:hover {
+    background-color: rgba(255, 0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #FEE337;
+    border-color: #FEE337;
+}
+
