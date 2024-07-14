@@ -10,7 +10,7 @@ function gay() {
     var newWindow = window.open(url, "_blank", windowFeatures);
     var image = document.querySelector('.gay1');
     var text = document.getElementById('displayText');
-    var text1 = document.getElementById('jeet')
+    var text1 = document.getElementById('jeet');
     
     if (image.style.display !== 'none') {
         image.style.display = 'none';
