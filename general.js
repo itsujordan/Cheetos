@@ -1,4 +1,4 @@
-const buy2 = "https://pump.fun/9mXh58Dw2ji51bpXvr9QvFvMwpWf2RtTvQBni1uZpump";
+const buy2 = "https://pump.fun/93p5o2hBH9GbjEQZ9JjAMGoZvYNL8eo1EQpYqbVSpump";
 const twitter = "https://x.com/hotcheetosol";
 const telegram = "http://t.me/hotcheetosol";
 var windowFeatures = "width=900,height=900,resizable=yes,scrollbars=yes,status=yes";
