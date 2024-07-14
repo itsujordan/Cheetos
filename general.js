@@ -1,4 +1,4 @@
-const buy2 = "https://pump.fun/93p5o2hBH9GbjEQZ9JjAMGoZvYNL8eo1EQpYqbVSpump";
+const buy2 = "please wait while this updates(1-10 mins). Make a pf pic and get some tokens in the meantime!";
 const twitter = "https://x.com/hotcheetosol";
 const telegram = "http://t.me/hotcheetosol";
 var windowFeatures = "width=900,height=900,resizable=yes,scrollbars=yes,status=yes";
