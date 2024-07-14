@@ -95,13 +95,6 @@ form {
     font-size: 16px;
     text-decoration: none;
 }
-/*
-color: #ec2031ef;
-background: linear-gradient(#fee337, #fee33700);
-transition: all 0.8s;
-transition-property: image 0.8s;
-font-family: Cheetos;
-text-shadow:  #FC0 1px 0 10px; */
 
 #downloadLink:hover {
     background-color: rgba(255, 0, 0, 0);
