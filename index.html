@@ -1,14 +1,142 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
+    <title>Flamin Cheetos</title>
+    <link rel="icon" href="photos/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="btnstyles.css">
+    <link rel="stylesheet" href="gen.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch Text from Pastebin</title>
 </head>
 <body>
-    <div id="textContainer">
-        Loading text from Pastebin...
+<div class="first">
+    <div class="img1">
+    <img src="photos/flamin hot jeetos.png" alt="jeetos flamin hot" id="flamin">
+    <img src="photos/flamin_man.png" alt="jeetos flamin man" id="flaminman">
     </div>
-    <script src="aaas.js"></script>
+    <div id="hiddenCA" style="display: none;"></div>
+    <div id="ca">
+        <h1 id="text-primary" class="copytext" onclick="copy()">CA:</h1>
+    </div>
+    <div id="buttons-container">
+        <div id="buttons">
+            <div id="yeah">
+            <div id="fire-container"></div>
+          <button class="confirm" id="twitter" type="button">TWITTER</button>
+            </div>
+            <div id="yeah">
+      <div id="fire-container1"></div>
+            <button class="confirm" id="buy1" type="button">BUY</button>
+            </div>
+            <div id="yeah">
+      <div id="fire-container2"></div>
+            <button class="confirm" id="telegram" type="button">TELEGRAM</button>
+            </div>
+        </div>    
+    </div>    
+</div>
+<script src="fire.js"></script>
+
+<div class="generator">
+    <div class="generator2">
+    <div id="hot-cheeto">
+        <h1 style="pointer-events: none; user-select: none;">HOT CHEETO</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <!-- Hide the file input initially -->
+            <input type="file" id="uploadImage" accept="image/*" style="display: none;" onchange="previewAndGenerate(event)">
+            <br><br>
+            <br>
+            <!-- No visible "Choose File" button here -->
+            <button type="button" id="generateButton" style="display: none;" onclick="generateMeme()">Generate Meme</button>
+        </form>
+        <div>
+            <img id="resultImage">
+            <br>
+            <a id="downloadLink" download="profile.png">Download Meme</a>
+        </div>
+            <!-- generator image here -->
+        <img draggable="false" id="existingImage" src="photos/generator.png" style="display: none;">
+    
+        <script src="script.js"></script>
+    </div>
+    <div id="head1">
+        <h1>WHAT CHEETO ARE YOU?</h1>
+    </div>
+    <div id="jeeto">
+        <h1 id="jeet" onclick="gay()" style="pointer-events: none; user-select: none;">JEETO</h1>
+        <h1 id="displayText" style="display:none; pointer-events: none; user-select: none;">YO THIS JEETO GAY</h1>
+            <br><br>
+            <br>
+            <br>
+            <!-- gay image here -->
+        <img draggable="false" id="existingImage" class="gay1" onclick="gay()" style="cursor: pointer;" src="photos/generator.png">
+    </div>
+    </div>
+</div>
+    <script src="general.js"></script>
+        <div class="s2">
+            <h1>TOKENOMICS</h1>
+        <div id="stats">
+        <div class="token">
+            <img src="photos/puffs.png">
+            <h1>LP</h1>
+            <h2>LOCKED & BURNED</h2>
+        </div>
+        <div class="token">
+            <img src="photos/popcorn.png">
+            <h1>SUPPLY</h1>
+            <h2>1,000,000</h2>
+        </div>
+        <div class="token">
+            <img src="photos/crunchy.png">
+            <h1>TAX</h1>
+            <h2>0%</h2>
+        </div>
+        </div>
+    </div>
+    <div id="s3">
+        <h1>PACKS</h1>
+        <div class="packs">
+            <div class="packs1" id="starter">
+                <h1>STARTER</h1>
+                <img src="photos/starter.png">
+            </div>
+            <div class="packs1" id="finisher">
+                <h1>FINISHER</h1>
+                <img src="photos/finisher.png">
+            </div>
+            <div class="packs1" id="legendary">
+                <h1>LEGENDARY</h1>
+                <img src="photos/legendary.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<link rel="stylesheet" href="stylescara.css">
+<div id="caraimg">
+    <div class="image-container">
+        <div class="image-wrapper">
+          <div>
+            <img id="imgss" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div>
+            <img id="imgss" src="https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div>
+            <img id="imgss" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2hvZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div>
+            <img id="imgss" src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2hvZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div>
+            <img id="imgss" src="https://images.unsplash.com/photo-1605348532760-6753d2c43329?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2hvZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+        </div>
+      </div>
+      <script src="cara.js"></script>
+</div>
+
+-->
 </body>
-</html>

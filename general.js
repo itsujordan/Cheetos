@@ -1,7 +1,46 @@
-const buy2 = "please wait while this updates(1-10 mins). Make a pf pic and get some tokens in the meantime!";
+const pastebinRawUrl = 'https://cors-anywhere.herokuapp.com/https://pastebin.com/raw/RatxgKnL';
+var buy2 = "LOADING...";
+var CA;
 const twitter = "https://x.com/hotcheetosol";
 const telegram = "http://t.me/hotcheetosol";
 var windowFeatures = "width=900,height=900,resizable=yes,scrollbars=yes,status=yes";
+
+async function fetchTextFromPastebin() {
+    try {
+        const response = await fetch(pastebinRawUrl);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const text = await response.text();
+        // Update the HTML content with the fetched text
+        const textContainer = document.getElementById('hiddenCA');
+        textContainer.textContent = text;      
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+ }
+ 
+ fetchTextFromPastebin();
+
+ setTimeout(variables, 1000);
+setTimeout(setup, 1000);
+
+function variables(){
+    buy2 = document.getElementById('hiddenCA').textContent;
+    CA = (buy2 .replace('https://pump.fun/', ''));
+}
+
+function setup(){
+    const text = document.querySelector('.copytext');
+    text.textContent = 'CA: ' + CA  ;
+}
+
+
+function copy(){
+    navigator.clipboard.writeText(CA);
+    alert('Copied CA: ' + CA);
+}
+
 
 function gay() {
     const url = "https://www.pornhub.com/view_video.php?viewkey=64008d214285c";
@@ -53,23 +92,11 @@ function tgl() {
     window.open(telegram, "_blank", windowFeatures);
 }
 
+//function socialvar() 
 var twit = document.getElementById('twitter').addEventListener("click", twitl);
 var buy = document.getElementById('buy1').addEventListener("click", buyl);
 var tg = document.getElementById('telegram').addEventListener("click", tgl);
 
-var CA = (buy2 .replace('https://pump.fun/', ''))
-
-//ca copy
-function copy(){
-    navigator.clipboard.writeText(CA)
-    alert('Copied CA: ' + CA)
-}
-
-//CA textvar
-document.addEventListener('DOMContentLoaded', function(){
-    const text = document.querySelector('.copytext');
-    text.textContent = 'CA: ' + CA;
-})
 
 //spinny favicn
 document.addEventListener('DOMContentLoaded', function() {
