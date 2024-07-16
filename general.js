@@ -22,8 +22,8 @@ async function fetchTextFromPastebin() {
  
  fetchTextFromPastebin();
 
- setTimeout(variables, 1000);
-setTimeout(setup, 1000);
+ setTimeout(variables, 2000);
+setTimeout(setup, 2000);
 
 function variables(){
     buy2 = document.getElementById('hiddenCA').textContent;
