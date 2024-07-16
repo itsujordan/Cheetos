@@ -1,4 +1,4 @@
-const pastebinRawUrl = 'https://cors-anywhere.herokuapp.com/https://pastebin.com/raw/RatxgKnL';
+const pastebinRawUrl = 'https://cors-anywhere.herokuapp.com/https://pastebin.com/raw/nDZ4Juba';
 var buy2 = "LOADING...";
 var CA;
 const twitter = "https://x.com/hotcheetosol";
