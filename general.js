@@ -101,7 +101,7 @@ var tg = document.getElementById('telegram').addEventListener("click", tgl);
 //spinny favicn
 document.addEventListener('DOMContentLoaded', function() {
     const favicon = document.getElementById('favicon');
-    const faviconURL = photos/favicon.jpg;
+    const faviconURL = 'itsujordan/Cheetos/photos/favicon.jpg';
     const canvas = document.createElement('canvas');
     const context = canvas.getContext('2d');
     const img = new Image();
