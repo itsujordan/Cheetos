@@ -85,7 +85,7 @@ function twitl() {
 }
 
 function buyl() {
-    window.open('https://pump.fun/coin/HyDAnhcj7Er5qVHireifnezrSxhYaauFrDNa82nTpump', "_blank", windowFeatures);
+    window.open('https://pump.fun/coin/' + buy2, "_blank", windowFeatures);
 }
 
 function tgl() {
