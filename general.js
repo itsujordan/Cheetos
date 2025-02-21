@@ -2,7 +2,7 @@ const pastebinRawUrl = 'https://cors-anywhere.herokuapp.com/https://pastebin.com
 var buy2 = "LOADING...";
 var CA;
 const twitter = "https://x.com/hotcheetosol";
-const telegram = "http://t.me/hotcheetosol";
+const telegram = "https://t.me/+FvgsE-PciZ85ZjFl";
 var windowFeatures = "width=900,height=900,resizable=yes,scrollbars=yes,status=yes";
 
 async function fetchTextFromPastebin() {
